@@ -28,6 +28,7 @@
 
 ---
 
+
 ## 1. Project Overview
 
 
@@ -45,6 +46,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ---
 
+
 ## 2. Objectives
 
 - Discover the relationship between survival and various factors.
@@ -55,9 +57,11 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ---
 
+
 ## 3. Project Scope & Tools
 
 ### Scope
+
 
 | Dimension | Details |
 |-----------|---------|
@@ -104,46 +108,13 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ## 5. Data Workflow
 
-<!--
-  Show how data moved through your project - from source to output.
-  Every transformation decision should be traceable here.
-
-  WHAT GOOD LOOKS LIKE:
-  1. Source: "Monthly CSV exports pulled from the internal POS system.
-              Five files, one per region, covering Jan 2023–Jun 2024."
-  2. Ingestion: "Loaded into Python using pandas. Files concatenated into
-                 a single dataframe (approx. 340,000 rows)."
-  3. Cleaning: "Removed 1.2% of rows with null transaction IDs.
-                Standardised date formats across regional files.
-                Resolved product category naming inconsistencies (3 variants → 1)."
-  4. Transformation: "Created a returns_rate field at product-category level.
-                      Aggregated to weekly and regional grain for trend analysis."
-  5. Analysis: "Descriptive statistics, regional comparison, return rate
-                segmentation by product category."
-  6. Output: "Summary report (PDF), annotated notebook, processed CSV."
-
-  WHAT TO AVOID:
-  ❌ "Data was cleaned and analysed." (No chain. No decisions. No trust.)
--->
-
-```
-[Data Source(s)]
-      ↓
-[Ingestion / Collection Method]
-      ↓
-[Cleaning & Transformation]
-      ↓
-[Analysis / Modelling / Querying]
-      ↓
-[Output / Visualisation / Reporting]
-```
 
 1. **Source:** Titanic dataset (CSV file) from Kaggle. 
 2. **Ingestion:** Imported into python and loaded into dataframe using pandas (pd.read_csv)
 3. **Cleaning:** Missing values in features such as Age and Embarked were handled appropriately through filling and dropping rows, dropped the Cabin column due to high volume of null values.
-4. **Transformation:** [What new fields, aggregations, or structures did you create?]
+4. **Transformation:** Data was organised and grouped for analysis. Categorical variables/feautures were coverted or encoded in preparation for future learning.
 5. **Analysis:** EDA using descriptive statistics and data visualization techniques. Histograms, count plots, box plots, heatmaps, and correlation analysis were used to identify patterns, relationships, and factors associated with survival.
-6. **Output:** CSV file, jupyter notebook, doc.
+6. **Output:** Cleaned dataset in CSV format. Key insights were documented in a Jupyter Notebook and doc.
 
 ---
 
