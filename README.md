@@ -1,4 +1,4 @@
-7# Titanic: An Exploratory Data Analysis
+# Titanic: An Exploratory Data Analysis
 > *Exploring data to uncover factors determining/influencing survival aboard the RMS Titanic.*
 
 ---
@@ -226,7 +226,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
   Aim for 3–6 insights. Quality over quantity.
 -->
-
+<!--
 **Insight 1: [Short descriptive headline]**
 [What you found + what it suggests. One short paragraph.]
 
@@ -238,7 +238,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
 **Insight 4 (if applicable): [Short descriptive headline]**
 [What you found + what it suggests.]
-
+-->
 ---
 
 ## 10. Assumptions & Limitations
@@ -264,6 +264,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 - The Cabin column was dropped because a large percentage of its values were missing, making it difficult to use reliably in the analysis.
 - The Survived column was assumed to be accurate and free from data-entry errors.
 
+<!--
 ### Limitations
 - [What gaps exist in the data?]
 - [What analysis was out of scope but could affect interpretation?]
@@ -271,7 +272,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 - [Are there known biases in the data source or collection method?]
 
 > *The goal here is pre-emptive Q&A. What would a thoughtful skeptic push back on? Document the answer here, before they ask.*
-
+-->
 ---
 
 
@@ -283,7 +284,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
 | Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | [data/processed] |
-| Brief Report | Summary of key findings and methodology | [`/path/to/file`] |
+| Brief Report | Summary of key findings and methodology | [reports] |
 | Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | [`notebooks`] |
 
 ---
