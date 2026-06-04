@@ -303,5 +303,4 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
 ---
 
-*Last updated: [Month YYYY]*
-*If this template helped you, consider starring the repository.*
+*Last updated: June, 2026*
