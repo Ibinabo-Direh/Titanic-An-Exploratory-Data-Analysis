@@ -30,41 +30,27 @@
 
 ## 1. Project Overview
 
-<!--
-  Write 3–5 sentences in plain language.
-  Cover: context → problem → approach → outcome.
-  Read it out loud. If it sounds like a form - rewrite it.
 
-  WHAT GOOD LOOKS LIKE:
-  "A mid-size retail business was seeing inconsistent revenue across
-  its regional stores but couldn't identify the root cause. This project
-  explored 18 months of transaction data across five regions to determine
-  whether underperformance was driven by sales volume, pricing, or return
-  rates. The analysis revealed that one region's gap was almost entirely
-  explained by an unusually high return rate on a single product category -
-  a finding invisible in the company's top-level reporting."
+**Context:**
+The Titanic dataset is one of the most popular datasets in data science and machine learning. It contains information about passengers aboard the RMS Titanic, including their age, gender, ticket class, fare paid, and whether they survived. This project was carried out to gain hands-on experience in data analysis and uncover factors that influenced passenger survival.
 
-  WHAT TO AVOID:
-  "This project analyzes sales data to find trends and insights."
-  (Too vague. Could describe 10,000 projects. Describes none of them.)
--->
+**Problem Statement:**
+What factors had the greatest impact on a passenger's chances of surviving the Titanic disaster, and what patterns can be identified from the data?
 
-**Context:** [The business, research, or personal situation that motivated this project.]
+**Approach:**
+I performed Exploratory Data Analysis (EDA) using Python, Pandas, Matplotlib, and Seaborn. The dataset was cleaned, missing values were examined, and visualizations were created to explore relationships between passenger characteristics and survival outcomes.
 
-**Problem Statement:** [The specific question or challenge you were addressing.]
-
-**Approach:** [In 1–2 sentences - how did you tackle it?]
-
-**Outcome:** [What did you produce or discover?]
+**Outcome:**
+The analysis revealed that gender, passenger class, age, and fare were important factors influencing survival. Female passengers and those traveling in higher classes had significantly higher survival rates. The project produced a set of visualizations and insights that can support future predictive modeling and decision-making.
 
 ---
 
 ## 2. Objectives
 
-- **Primary Objective:** Discover the relationship between survival and various factors.
-- **Secondary Objective 1:** Determine the correlation between age and survival.
-- **Secondary Objective 2:** Discover how (if) gender impacted on survival chances.
-- **Secondary Objective 3:** Confirm the influence (or not) of fair/class on chances of survival.
+- Discover the relationship between survival and various factors.
+- Determine the correlation between age and survival.
+- Discover how (if) gender impacted on survival chances.
+- Confirm the influence (or not) of fair/class on chances of survival.
 
 
 ---
@@ -102,13 +88,11 @@
 
 | Category | Tool(s) Used |
 |----------|-------------|
-| Data Storage | [e.g., PostgreSQL, CSV files, BigQuery, S3] |
-| Data Processing | [e.g., Python, R, SQL, Excel, dbt] |
-| Analysis | [e.g., pandas, dplyr, custom SQL queries] |
-| Visualization | [e.g., Matplotlib, Tableau, Power BI, Looker] |
-| Version Control | [e.g., Git / GitHub] |
-| Documentation | [e.g., Markdown, Notion] |
-| Other | [Any additional tools] |
+| Data Storage | CSV files |
+| Data Processing/Analysis| Python/Jupyter, Numpy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Version Control | Git / GitHub |
+| Documentation | Markdown |
 
 ---
 
