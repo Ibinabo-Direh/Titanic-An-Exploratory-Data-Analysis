@@ -143,10 +143,13 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ### Dataset / Table: `[name]`
 
-| Field Name | Data Type | Description | Example Value |
+| Column | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `[field_1]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_2]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `PassengerId` | int64 | Unique passenger ID | 3 |
+| `Survived` | int64 | Survival indicator (0 = Died, 1 = Survived) | 0 |
+| `Pclass` | int64 | Passenger class ( | [Non-sensitive example] |
+| `Name` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
 | `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
 
 > **Row count (approx.):** [X rows]
