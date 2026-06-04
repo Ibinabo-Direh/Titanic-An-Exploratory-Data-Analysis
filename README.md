@@ -162,8 +162,6 @@ The analysis revealed that gender, passenger class, age, and fare were important
 > **Row count (approx.):** 891 rows
 > **Date:** April, 1912
 
-*Add additional table blocks as needed for multi-table projects.*
-
 ---
 
 ## 7. Analysis & Metrics
