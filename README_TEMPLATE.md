@@ -273,9 +273,9 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
-| [Name] | [What it contains] | [`/path/to/file`] |
+| Cleaned Dataset | [What it contains] | [`/path/to/file`] |
+| Brief Report | [What it contains] | [`/path/to/file`] |
+| Jupyter Notebook | [What it contains] | [`/path/to/file`] |
 
 ---
 
