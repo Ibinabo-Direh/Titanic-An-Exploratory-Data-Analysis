@@ -188,6 +188,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 Analytical Approach
 This was an exploratory analysis. The goal was to understand the Titanic dataset in terms of patterns in passenger demographics and survival outcomes, and produce a clean dataset ready for predictive modeling. The approach was to visualise before interpreting. No predictive model was built in this project.
 
+<!--
 ### Key Metrics Defined
 
 | Metric | Plain-Language Definition | Why It Matters |
@@ -209,7 +210,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
 ## 8. Key Insights
 
-<!--
+
   Findings + implications. Not just what happened - what it means.
 
   WHAT GOOD LOOKS LIKE:
@@ -283,9 +284,9 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | [data/processed] |
-| Brief Report | Summary of key findings and methodology | [reports] |
-| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | [`notebooks`] |
+| Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | [`titanic-an-exploratory-data-analysis/data/processed/`] |
+| Brief Report | Summary of key findings and methodology | [`titanic-an-exploratory-data-analysis/reports/`] |
+| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | [`titanic-an-exploratory-data-analysis/notebooks/`] |
 
 ---
 
