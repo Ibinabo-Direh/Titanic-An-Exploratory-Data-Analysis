@@ -142,7 +142,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 2. **Ingestion:** Imported into python and loaded into dataframe using pandas (pd.read_csv)
 3. **Cleaning:** Missing values in features such as Age and Embarked were handled appropriately through filling and dropping rows, dropped the Cabin column due to high volume of null values.
 4. **Transformation:** [What new fields, aggregations, or structures did you create?]
-5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
+5. **Analysis:** EDA using descriptive statistics and data visualization techniques. Histograms, count plots, box plots, heatmaps, and correlation analysis were used to identify patterns, relationships, and factors associated with survival.
 6. **Output:** CSV file, jupyter notebook, doc.
 
 ---
