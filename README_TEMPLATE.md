@@ -138,12 +138,12 @@ The analysis revealed that gender, passenger class, age, and fare were important
 [Output / Visualisation / Reporting]
 ```
 
-1. **Source:** [Where did the data come from? Format, size, access method.]
-2. **Ingestion:** [How was it brought in?]
-3. **Cleaning:** [What issues did you find and fix?]
+1. **Source:** Titanic dataset (CSV file) from Kaggle. 
+2. **Ingestion:** Imported into python and loaded into dataframe using pandas (pd.read_csv)
+3. **Cleaning:** 
 4. **Transformation:** [What new fields, aggregations, or structures did you create?]
 5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
-6. **Output:** [What form do the results take?]
+6. **Output:** CSV file, jupyter notebook, doc.
 
 ---
 
