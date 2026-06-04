@@ -145,13 +145,13 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 | Column | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `PassengerId` | int64 | Unique passenger ID | 2 |
+| `PassengerId` | int64 | Unique passenger ID | 1 |
 | `Survived` | int64 | Survival indicator (0 = Died, 1 = Survived) | 0 |
 | `Pclass` | int64 | Passenger ticket class (1 = 1st, 2 = 2nd, 3 = 3rd) | 3 |
-| `Name` | object | Passenger full name including title |  |
-| `Sex` | object | Gender | [Non-sensitive example] |
-| `Age` | float64 | [What this field represents] | [Non-sensitive example] |
-| `SibSp` | int64 | [What this field represents] | [Non-sensitive example] |
+| `Name` | object | Passenger full name including title | Braund, Mr. Owen Harris |
+| `Sex` | object | Biological gender | male |
+| `Age` | float64 | Passenger age in years (contains missing values) | 22.0 |
+| `SibSp` | int64 |  | [Non-sensitive example] |
 | `Parch` | int64 | [What this field represents] | [Non-sensitive example] |
 | `Ticket` | object | [What this field represents] | [Non-sensitive example] |
 | `Fare` | float64 | [What this field represents] | [Non-sensitive example] |
