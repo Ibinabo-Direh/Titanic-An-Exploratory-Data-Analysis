@@ -145,12 +145,19 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 | Column | Data Type | Description | Example Value |
 |------------|-----------|-------------|---------------|
-| `PassengerId` | int64 | Unique passenger ID | 3 |
+| `PassengerId` | int64 | Unique passenger ID | 2 |
 | `Survived` | int64 | Survival indicator (0 = Died, 1 = Survived) | 0 |
-| `Pclass` | int64 | Passenger class ( | [Non-sensitive example] |
-| `Name` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
-| `[field_3]` | [string / int / date / float / boolean] | [What this field represents] | [Non-sensitive example] |
+| `Pclass` | int64 | Passenger ticket class (1 = 1st, 2 = 2nd, 3 = 3rd) | 3 |
+| `Name` | object | Passenger full name including title |  |
+| `Sex` | object | Gender | [Non-sensitive example] |
+| `Age` | float64 | [What this field represents] | [Non-sensitive example] |
+| `SibSp` | int64 | [What this field represents] | [Non-sensitive example] |
+| `Parch` | int64 | [What this field represents] | [Non-sensitive example] |
+| `Ticket` | object | [What this field represents] | [Non-sensitive example] |
+| `Fare` | float64 | [What this field represents] | [Non-sensitive example] |
+| `Cabin` | object | [What this field represents] | [Non-sensitive example] |
+| `Embarked` | object | [What this field represents] | [Non-sensitive example] |
+
 
 > **Row count (approx.):** [X rows]
 > **Date range:** [Start] – [End]
