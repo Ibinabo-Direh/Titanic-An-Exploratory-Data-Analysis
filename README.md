@@ -259,9 +259,10 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 -->
 
 ### Assumptions
-- [What did you treat as true without being able to verify?]
-- [What simplifications did you make for scope or feasibility?]
-- [What domain rules or definitions did you accept as given?]
+- Missing values in the Age column were filled using the mean. It was assumed that this approach would not significantly affect the overall analysis.
+- The two records with missing Embarked values were dropped, as they represented a very small portion of the dataset.
+- The Cabin column was dropped because a large percentage of its values were missing, making it difficult to use reliably in the analysis.
+- The Survived column was assumed to be accurate and free from data-entry errors.
 
 ### Limitations
 - [What gaps exist in the data?]
