@@ -49,7 +49,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 - Discover the relationship between survival and various factors.
 - Determine the correlation between age and survival.
-- Discover how (if) gender impacted on survival chances.
+- Discover if gender impacted on survival chances.
 - Confirm the influence (or not) of fair/class on chances of survival.
 
 
@@ -59,32 +59,15 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ### Scope
 
-<!--
-  WHAT GOOD LOOKS LIKE:
-  In Scope: "Transaction-level data for Regions A–E, Jan 2023–Jun 2024.
-             Analysis covers revenue, return rates, and product category performance."
-  Out of Scope: "Customer demographics and marketing spend data were excluded -
-                 demographic data was incomplete for two regions, and marketing
-                 data sits in a separate system outside this engagement."
-
-  WHAT TO AVOID:
-  ❌ Leaving Out of Scope blank. This is the section that protects your credibility.
-     If you don't define the fence, reviewers assume you missed things.
--->
-
 | Dimension | Details |
 |-----------|---------|
 | **In Scope** | Titanic dataset (Kaggle), passenger data including age, sex, ticket details (class, fare), family relationships (siblings/spouses, parents/children), embarkation ports, and survival status. Analysis focused on identifying patterns and factors associated with passenger survival. |
 | **Out of Scope** | External dataset/historical investigation of the Titanic disaster beyond the original dataset. Model training. |
-| **Time Period** | [Dataset: April 1912 passenger data for RMS Titanic;  Project work: 1st – 7th May, 2026|
+| **Time Period** | Dataset: April 1912 passenger data for RMS Titanic;  Project work: 1st – 7th May, 2026|
 | **Granularity** | Row-level analysis: each row represents an individual passenger and their associated attributes. |
 
 ### Tools & Technologies
 
-<!--
-  List only what you actually used on this project.
-  This is not your skills section - it's the project's technical context.
--->
 
 | Category | Tool(s) Used |
 |----------|-------------|
