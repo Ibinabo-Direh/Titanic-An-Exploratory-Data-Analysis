@@ -288,7 +288,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 |-------------|-------------|----------|
 | Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | [`/path/to/file`] |
 | Brief Report | Summary of key findings and methodology | [`/path/to/file`] |
-| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | [`/path/to/file`] |
+| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | `notebooks`|
 
 ---
 
