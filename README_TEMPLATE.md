@@ -151,11 +151,11 @@ The analysis revealed that gender, passenger class, age, and fare were important
 | `Name` | object | Passenger full name including title | Braund, Mr. Owen Harris |
 | `Sex` | object | Biological gender | male |
 | `Age` | float64 | Passenger age in years (contains missing values) | 22.0 |
-| `SibSp` | int64 |  | [Non-sensitive example] |
-| `Parch` | int64 | [What this field represents] | [Non-sensitive example] |
-| `Ticket` | object | [What this field represents] | [Non-sensitive example] |
-| `Fare` | float64 | [What this field represents] | [Non-sensitive example] |
-| `Cabin` | object | [What this field represents] | [Non-sensitive example] |
+| `SibSp` | int64 | Count of siblings or spouses | 1 |
+| `Parch` | int64 | Count of parents or children traveling with the passenger | 0 |
+| `Ticket` | object | Ticket number serial code | A/5 21171 |
+| `Fare` | float64 | Price paid for ticket in |  |
+| `Cabin` | object |  | [Non-sensitive example] |
 | `Embarked` | object | [What this field represents] | [Non-sensitive example] |
 
 
