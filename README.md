@@ -294,7 +294,7 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 [Machine Learning Intern | Aspiring Machine Learning Engineer]
 
 - 🔗 [https://www.linkedin.com/in/ibinabo-direh]
-- 💼 [github.com/Ibinabo-Direh]
+- 💼 [https://github.com/Ibinabo-Direh]
 - 📧 [ibinabo.id@gmail.com]
 
 ---
