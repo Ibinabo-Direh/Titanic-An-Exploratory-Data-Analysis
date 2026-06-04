@@ -74,10 +74,10 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 | Dimension | Details |
 |-----------|---------|
-| **In Scope** | [What is included - data sources, time periods, segments] |
-| **Out of Scope** | [What you explicitly excluded - and a brief reason why] |
-| **Time Period** | [Date range of the data or the project itself] |
-| **Granularity** | [Unit of analysis - row-level, daily aggregates, per-user, etc.] |
+| **In Scope** | Titanic dataset (Kaggle), passenger data including age, sex, ticket details (class, fare), family relationships (siblings/spouses, parents/children), embarkation ports, and survival status. Analysis focused on identifying patterns and factors associated with passenger survival. |
+| **Out of Scope** | External dataset/historical investigation of the Titanic disaster beyond the original dataset. Model training. |
+| **Time Period** | [Dataset: April 1912 passenger data for RMS Titanic;  Project work: 1st – 7th May, 2026|
+| **Granularity** | Row-level analysis: each row represents an individual passenger and their associated attributes. |
 
 ### Tools & Technologies
 
