@@ -154,14 +154,13 @@ The analysis revealed that gender, passenger class, age, and fare were important
 | `SibSp` | int64 | Count of siblings or spouses | 1 |
 | `Parch` | int64 | Count of parents or children traveling with the passenger | 0 |
 | `Ticket` | object | Ticket number serial code | A/5 21171 |
-| `Fare` | float64 | Price paid for ticket in |  |
-| `Cabin` | object |  | [Non-sensitive example] |
-| `Embarked` | object | [What this field represents] | [Non-sensitive example] |
+| `Fare` | float64 | Price paid for ticket in British Pounds | 7.2500 |
+| `Cabin` | object | Cabin section/room number (high volume of missing values) | C85 |
+| `Embarked` | object | Port where passenger embarked (C = Cherbourg, Q = Queenstown, S = Southampton)| S |
 
 
-> **Row count (approx.):** [X rows]
-> **Date range:** [Start] – [End]
-> **Key join / relationship:** [e.g., `orders.customer_id` → `customers.id`]
+> **Row count (approx.):** 891 rows
+> **Date:** April, 1912
 
 *Add additional table blocks as needed for multi-table projects.*
 
