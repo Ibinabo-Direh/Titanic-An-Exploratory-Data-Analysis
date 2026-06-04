@@ -140,7 +140,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 1. **Source:** Titanic dataset (CSV file) from Kaggle. 
 2. **Ingestion:** Imported into python and loaded into dataframe using pandas (pd.read_csv)
-3. **Cleaning:** 
+3. **Cleaning:** Missing values in features such as Age and Embarked were handled appropriately through filling and dropping rows, dropped the Cabin column due to high volume of null values.
 4. **Transformation:** [What new fields, aggregations, or structures did you create?]
 5. **Analysis:** [What methods - statistical, visual, query-based, model-based?]
 6. **Output:** CSV file, jupyter notebook, doc.
