@@ -1,4 +1,4 @@
-# Titanic: An Exploratory Data Analysis
+7# Titanic: An Exploratory Data Analysis
 > *Exploring data to uncover factors determining/influencing survival aboard the RMS Titanic.*
 
 ---
@@ -187,7 +187,11 @@ The analysis revealed that gender, passenger class, age, and fare were important
 
 ### Analytical Approach
 
+
 [Describe how you approached the analysis. Were you exploring patterns? Testing a hypothesis? Building and validating a pipeline? Be honest about your method - exploratory work is valid, just call it that.]
+
+Analytical Approach
+This was an exploratory analysis. The goal was to understand the Titanic dataset in terms of patterns in passenger demographics and survival outcomes, and produce a clean dataset ready for predictive modeling. The approach was to visualise before interpreting. No predictive model was built in this project.
 
 ### Key Metrics Defined
 
