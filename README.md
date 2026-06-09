@@ -97,10 +97,8 @@ The analysis revealed that gender, passenger class, age, and fare were important
 ├── reports/                  # Final outputs: PDFs, slide decks, Word docs
 │
 ├── visuals/                  # Exported charts, dashboard screenshots, ERD diagrams
+|
 │
-├── docs/                     # Data dictionaries, schema notes, reference material
-│
-├── project_metadata.yml      # Machine-readable metadata (optional)
 └── README.md                 # You are here
 ```
 
