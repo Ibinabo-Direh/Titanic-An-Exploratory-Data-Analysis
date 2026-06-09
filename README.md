@@ -86,7 +86,7 @@ The analysis revealed that gender, passenger class, age, and fare were important
 ## 4. Repository Structure
 
 ```
-[project-root]/
+[titanic-an-exploratory-data-analysis]/
 │
 ├── data/
 │   ├── raw/                  # Original, unmodified source data - never edited
