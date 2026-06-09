@@ -282,9 +282,9 @@ This was an exploratory analysis. The goal was to understand the Titanic dataset
 
 | Deliverable | Description | Location |
 |-------------|-------------|----------|
-| Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | `titanic-an-exploratory-data-analysis/data/processed/` |
-| Brief Report | Summary of key findings and methodology | `titanic-an-exploratory-data-analysis/reports/` |
-| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | `titanic-an-exploratory-data-analysis/notebooks/` |
+| Cleaned Dataset |  Titanic dataset with missing values handled, Cabin dropped, and categorical variables encoded | (titanic-an-exploratory-data-analysis/data/processed/) |
+| Brief Report | Summary of key findings and methodology | (titanic-an-exploratory-data-analysis/reports/) |
+| Jupyter Notebook | NotebookFull EDA workflow including data loading, cleaning, visualization, and insight documentation | (titanic-an-exploratory-data-analysis/notebooks/) |
 
 ---
 
